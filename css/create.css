@@ -1,0 +1,299 @@
+:root{
+    --bg-color: #eee;
+    --text-color: #572EE5;
+    --text-color-span: #5ED7C6;
+    --text-color-foot: #000000;
+    --bg-nigth: #37383C;
+    --bg-nigth-trending: #2223;
+}
+.cam_main{
+    position: relative;
+    margin: auto;
+    top: 80px;
+    width: 90vw;
+    height: 390px;
+    border: 1px solid var(--text-color);
+}
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+.container_title_crea{
+    position: relative;
+    margin: auto;
+    width:200px;
+    top: 90px;
+}
+P{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--text-color-foot);
+    text-align: center;
+    line-height: 29px;
+}
+.container_num_pasos{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 90px;
+    margin: auto;
+    width: 150px;  
+}
+.paso_paso{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid 1px var(--text-color);
+    border-radius: 200px;
+    text-align: center;
+}
+.paso_paso_checked{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+.line_big{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 250px;
+    height: 7px;
+    background-color: var(--text-color);
+}
+.btn_start{
+    position: relative;
+    margin: auto;
+    width: 130px;
+    height: 50px;
+    border: solid 1px var(--text-color);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--text-color);
+    letter-spacing: 0;
+    top: 130px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+.btn_start:hover{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+strong{
+    position: relative;
+    top: 15px;
+}
+footer{
+    top: 280px;
+}
+video{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+.bg_blue{
+    width: 80%;
+    height: 46%;
+    z-index: 1;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(87, 46, 229, .5);
+}
+.pSubir{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.cargandoIcon{
+    position: absolute;
+    top: 140px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/loader.svg);
+}
+.subidoIcon{
+    position: absolute;
+    top: 140px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 22px;
+    background-image: url(../assets/ok.svg);
+}
+.timming{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    color: var(--text-color);
+}
+.icon_download{
+    margin-left: 50px;
+}
+#gifoGrabado{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 46%;
+}
+@media screen and (min-width:768px){
+    .bg_blue{
+        width: 68%;
+        height: 80%;
+    }
+    #gifoGrabado{
+        width: 68%;
+        height: 80%;
+    }
+}
+@media screen and (min-width:1024px){
+    .cam_main{
+        position: relative;
+        margin: auto;
+        width: 688px;
+        height: 390px;
+        border: 1px solid var(--text-color);
+    }
+    .bg_blue{
+        width: 68%;
+        height: 80%;
+    }
+    #gifoGrabado{
+        width: 68%;
+        height: 80%;
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .icon_compartir{
+        background-image: url(../assets/icon-link-normal.svg);
+        cursor: pointer;
+    }
+    .icon_compartir:hover{
+        background-image: url(../assets/icon-link-hover.svg);
+    }
+    .container_title_crea{
+        position: relative;
+        margin: auto;
+        width:300px;
+        top: 70px;
+    }
+    P{
+        font-size: 16px;
+        color: var(--text-color-foot);
+        text-align: center;
+        line-height: 29px;
+    }
+    .container_num_pasos{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 170px;
+        margin: auto;
+        width: 149px;  
+    }
+    .paso_paso{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: solid 1px var(--text-color);
+        border-radius: 200px;
+        text-align: center;
+    }
+    .line_big{
+        position: relative;
+        top: 180px;
+        margin: auto;
+        width: 800px;
+        height: 7px;
+        background-color: var(--text-color);
+    }
+    .btn_start{
+        top: 200px;
+    }
+    .timming{
+        position: absolute;
+        right: -450px;
+        margin-left: 250px;
+        width: 170px;
+        top: -20px;
+        color: var(--text-color);
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 15px;
+        color: #572EE5;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        cursor: pointer;
+    }
+    .timming:hover{
+        border-bottom: 2px solid #5ED7C6;
+    }
+}
+@media screen and (min-width:1200px){
+    footer{
+        top: 340px;
+    }
+    .camera{
+        position: absolute;
+        background-image: url(../assets/camara.svg);
+        width: 180px;
+        height: 163px;
+        background-size: 180px;
+        background-repeat: no-repeat;
+        top: 70px;
+        left: 20px;
+        display: inline-block;
+    }
+    body.dark .camera{
+        background-image: url(../assets/camara-modo-noc.svg);
+    }
+    .light{
+        position: absolute;
+        background-image: url(../assets/element-luz-camara.svg);
+        top: 125px;
+        width: 80px;
+        height: 150px;
+        background-repeat: no-repeat;
+        left: 202px;
+        display: inline-block;
+    }
+    .movie{
+        position: absolute;
+        background-image: url(../assets/pelicula.svg);
+        top: 300px;
+        width: 150px;
+        background-repeat: no-repeat;
+        height: 90px;
+        right: 100px;
+        display: block;
+    }
+    body.dark .movie{
+        background-image: url(../assets/pelicula-modo-noc.svg);
+    }
+
+}

@@ -1,0 +1,66 @@
+:root{
+    --bg-color: #eee;
+    --text-color: #572EE5;
+    --text-color-span: #5ED7C6;
+    --text-color-foot: #000000;
+    --bg-nigth: #37383C;
+    --bg-nigth-trending: #2223;
+    --bg-trending-color: #222326;
+}
+.title_img_fovorite_container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+}
+h1{
+    font-size: 20px;
+}
+.favorite_gifos_flex{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gifos_favorite{
+    width: 156px;
+    margin: 10px;
+    height: 120px;
+    border: solid 1px black;
+}
+.no_favorites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+    max-width: 431px;
+}
+.guarda_tu_primer_gifo_p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: var(--text-color-span);
+    text-align: center;
+    line-height: 33px;
+    font-size: 22px;
+}
+.fav{
+    color: #9CAFC3;
+}
+@media screen and (min-width:1024px){
+    .gifos_favorite{
+        width: 260px;
+        margin: 10px;
+        height: 200px;
+        border: solid 1px black;
+    }  
+}
+.none{
+    display: none;
+}

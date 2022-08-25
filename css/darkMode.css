@@ -1,0 +1,164 @@
+:root{
+    --bg-color: #eee;
+    --text-color: #572EE5;
+    --text-color-span: #5ED7C6;
+    --text-color-foot: #000000;
+    --bg-nigth: #37383C;
+    --bg-nigth-trending: #2223;
+    --bg-trending-color: #222326;
+}
+body.dark .line_purple{
+    background-color: var(--text-color-foot);
+}
+body.dark .container_logo_header{
+    background-image: url(../assets/logo-mobile-modo-noct.svg);
+}
+body.dark .menu{
+    background-image: url(../assets/burger-modo-noct.svg);
+}
+body.dark .close_x{
+    background-image: url(../assets/close-modo-noct.svg);
+}
+body.dark nav{
+    background-color: var(--text-color-foot);
+    opacity: 100%;
+}
+body.dark a{
+    color: var(--bg-color);
+}
+body.dark h1{
+    color: var(--bg-color);
+}
+body.dark .container_search_icon{
+    border: solid 1px var(--bg-color);
+    background-color: var(--bg-trending-color);
+}
+body.dark .sugerencia:hover{
+    background-color: var(--bg-color);
+}
+body.dark .sugerenciaP:hover{
+    color: var(--text-color-foot);
+}
+body.dark input::placeholder{
+    color: var(--bg-color);
+}
+body.dark .x_cancel_search{
+    background-image: url(../assets/close-modo-noct.svg);
+}
+body.dark .icon_search{
+    background-image: url(../assets/icon-search-modo-noct.svg);
+}
+body.dark .title_trending{
+    color: var(--bg-color);
+}
+body.dark .p_trending{
+    color: var(--bg-color);
+}
+body.dark .p_trending{
+    color: var(--bg-color);
+}
+body.dark .showMore{
+    background-image: url(../assets/CTA-ver+-modo-noc.svg);
+}
+body.dark .showMore:hover{
+    background-image: url(../assets/CTA-ver+hover-modo-noc.svg); 
+}
+body.dark .section_trending_gifos{
+    background-color: var(--bg-trending-color);
+}
+body.dark .p_trending_gifos{
+    color: var(--bg-color);
+}
+body.dark h3{
+    color: var(--bg-color);
+}
+body.dark .face{
+    background-image: url(../assets/icon_facebook_noc.svg);
+}
+body.dark .twitter{
+    background-image: url(../assets/icon_twitter_noc.svg);
+}
+body.dark .insta{
+    background-image: url(../assets/icon_instagram_noc.svg);
+}
+body.dark .reserved{
+    color: var(--bg-color);
+}
+body.dark .sugerencia:hover{
+    color:var(--bg-color);
+}
+body.dark .max_gif{
+    background-color: rgba(55, 56, 60, .9);
+}
+body.dark h4{
+    color: var(--bg-color);
+}
+body.dark .p_gif_max{
+    color: var(--bg-color);
+}
+body.dark .close_max_gif{
+    background-image: url(../assets/close-modo-noct.svg);
+}
+body.dark .p_gifos_card_max{    
+    color: white;
+}
+body.dark .title_gifos_card_max{
+    color: white;
+}
+body.dark .btn_start{
+    border: solid 1px var(--bg-color);
+    color: var(--bg-color);
+}
+body.dark .btn_start:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color-foot);
+}
+body.dark .line_big{
+    background-color: var(--text-color-foot);
+}
+body.dark .paso_paso{
+    border: solid 1px var(--bg-color);
+    color: var(--bg-color);
+}
+body.dark .cam_main{
+    border: 1px solid var(--bg-color);
+}
+body.dark p{
+    color: var(--bg-color);
+}
+body.dark input{
+    color: white;
+}
+body.dark .line_search_input{
+    background-color: white;
+}
+body.dark .paso_paso_checked{
+    background-color: var(--bg-color);
+    color: black;
+}
+@media screen and (min-width:1024px){
+    body.dark .container_logo_header{
+        background-image: url(../assets/Logo-modo-noc.svg);
+    }
+    body.dark .createGif{
+        background-image: url(../assets/CTA-crear-gifo-modo-noc.svg);
+    }
+    body.dark .createGif:hover{
+        background-image: url(../assets/CTA-crear-gifo-hover-modo-noc.svg);
+    }
+    body.dark nav{
+        background-color: transparent;
+    }
+    body.dark .trending_left{
+        background-image: url(../assets/button-slider-left-md-noct.svg);
+    }
+    body.dark .trending_right{
+        background-image: url(..//assets/button-slider-right-md-noct.svg);
+    }
+    body.dark .trending_left:hover{
+        background-image: url(../assets/button-slider-left-md-noct_hover.svg);
+    }
+    body.dark .trending_right:hover{
+        background-image: url(../assets/button-slider-right-md-noct-hover.svg);
+    }
+}

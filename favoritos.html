@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/favoritos.css">
+        <link rel="stylesheet" href="css/darkMode.css">
+        <link  rel="icon" href="assets/logo-mobile-modo-noct.svg" type="image/png" />
+        <title>GIFOS</title>
+    </head>
+<body>
+    <header>
+        <div class="line_purple"></div>
+        <a class="logoUp" href="index.html"></a>
+        <div class="container_logo_header"></div>
+        <img class="logo_header none" src="assets/Logo-modo-noc.svg" alt="">
+        <div class="container_svg_menu">
+            <div id="menu_burger" class="menu"></div>
+            <div id="menu_burger_close" class="menu none close_x"></div>
+        </div>
+        <nav id="navBar" class="nav_none">
+            <ul>
+                <li><a href="index.html">Home</a><div class="line_menu"></div></li>
+                <li><a id="darkMode" href="">Modo Nocturno</a><div class="line_menu"></div></li>
+                <li><a class="fav" href="favoritos.html">Favoritos</a><div class="line_menu"></div></li>
+                <li><a href="misGifos.html">Mis GIFOS</a><div class="line_menu"></div></li>
+                <li><a class="crea_tu_desktop" href="create.html">Crea tu GIFO</a><div class="line_menu"></div></li>
+            </ul>
+        </nav>
+        <a href="create.html">
+            <div class="createGif nav_none"></div>
+        </a>
+    </header>
+    <section id="maxSection" class="max_gif none">
+        <div class="close_max_gif"></div>
+        <div class="container_gif_max_title_actions"></div>
+    </section>
+    <main>
+        <div class="title_img_fovorite_container">
+            <img class="img_favoritos" src="assets/icon-favoritos.svg" alt="favoritos">
+            <h1>Favoritos</h1>
+        </div>
+        <section id="sectionFavorite" class="favorite_gifos_flex">
+            <div id="favoriteClean" class="no_favorites">
+                <img class="img_fav_sin" src="assets/icon-fav-sin-contenido.svg" alt="imagen de favoritos vacío">
+                <p class="guarda_tu_primer_gifo_p">"¡Guarda tu primer <span>GIFO</span> en Favoritos 
+                    para que se muestre aquí!"</p>
+            </div>
+            <article id="gifosContainerFlex" class="search_gifos_flex ">
+            </article>
+            <div class="showMore none"></div>
+        </section>
+    </main>
+    <section class="section_trending_gifos">
+        <div class="container_title_trending">
+            <h2 class="title_trending gifos">Trending GIFOS</h2>
+            <p class="p_trending_gifos">Mira los últimos GIFOS de nuestra comunidad.</p>
+        </div>
+        <div id="containerTrending" class="container_trending_gifos_flex">
+        </div>
+        <div id="arrow-lef" class="trending_left"></div>
+        <div id="arrow-right" class="trending_right"></div>
+    </section>
+    <footer>
+        <h3>Compartir en:</h3>
+        <div class="container_rrss">
+            <div class="rrss face"></div>
+            <div class="rrss twitter"></div>
+            <div class="rrss insta"></div>
+        </div>
+        <p class="reserved">© GIFOS 2020 All Rights Reserved.</p>
+        <div class="line_purple foot"></div>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/favorite.js"></script>
+    <script src="js/darkmode.js"></script>
+</body>
+</html>

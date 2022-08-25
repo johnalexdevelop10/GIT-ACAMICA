@@ -1,0 +1,18 @@
+:root{
+    --bg-color: white;
+    --text-color: #572EE5;
+    --text-color-span: #5ED7C6;
+    --text-color-foot: #000000;
+}
+.title_img_fovorite_container{
+    width: 120px;
+}
+.mis{
+    color: #9CAFC3;
+}
+.icon_trash{
+    background-image: url(../assets/icon-trash-normal.svg);
+}
+.icon_trash:hover{
+    background-image: url(../assets/icon-trash-hover.svg);
+}

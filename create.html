@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/create.css">
+        <link rel="stylesheet" href="css/darkMode.css">
+        <link  rel="icon" href="assets/logo-mobile-modo-noct.svg" type="image/png" />
+        <title>GIFOS</title>
+    </head>
+<body id="theme">
+    <header>
+        <div class="line_purple"></div>
+        <a class="logoUp" href="index.html"></a>
+        <div class="container_logo_header"></div>
+        <img class="logo_header none" src="assets/Logo-modo-noc.svg" alt="">
+        <div class="container_svg_menu">
+            <div id="menu_burger" class="menu"></div>
+            <div id="menu_burger_close" class="menu none close_x"></div>
+        </div>
+        <nav id="navBar" class="nav_none">
+            <ul>
+                <li><a href="index.html">Home</a><div class="line_menu"></div></li>
+                <li><a id="darkMode" href="">Modo Nocturno</a><div class="line_menu"></div></li>
+                <li><a href="favoritos.html">Favoritos</a><div class="line_menu"></div></li>
+                <li><a href="misGifos.html">Mis GIFOS</a><div class="line_menu "></div></li>
+                <li><a class="crea_tu_desktop" href="create.html">Crea tu GIFO</a><div class="line_menu"></div></li>
+            </ul>
+        </nav>
+        <div class="createGif nav_none">
+            <a href="create.html">
+                <img class="create_img" src="assets/CTA-crear-gifo-active.svg" alt="imagen crear">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="cam_main">
+            <div class="bg_blue none">
+                <div class="container_msj">
+                    <div class="cargandoIcon"></div>
+                    <p class="pSubir">Estamos subiendo tu GIFO</p>
+                    <div class="subidoIcon none"></div>
+                    <p class="pSubir exito none">GIFO subido con éxito</p>
+                    <div class="actions_users">
+                        <div class="icon_download tamaño_actions_users none"></div>
+                        <div class="icon_compartir tamaño_actions_users none"></div>
+                    </div>
+                </div>
+            </div>
+            <video id="videoCreate" src="">
+            </video>
+            <img id="gifoGrabado" class="none" src="" alt="gif grabado">
+            <div class="container_title_crea">
+                <h1 id="titleCreateGifo">Aquí podrás crear tus propios <span>GIFOS</span></h1>
+                <P id="pCreateGifo">¡Crea tu GIFO en sólo 3 pasos!(sólo necesitas una cámara para grabar un video)</P>
+            </div>
+        </div>
+        <div class="camera none"></div>
+        <div class="light none"></div>
+        <div class="movie none"></div>
+    </main>
+    <div class="container_num_pasos">
+        <div id="pasoUno" class="paso_paso">1</div>
+        <div id="pasoDos" class="paso_paso">2</div>
+        <div id="pasoTres" class="paso_paso">3</div>
+        <p class="timming none"><b id="minutos">0</b> : <b id="segundos">0</b> </p>
+        <p id="repeat" class="timming none">REPETIR CAPTURA</p>
+    </div>
+    <div class="line_big"></div>
+    <div id="start" class="btn_start"> <strong>COMENZAR</strong></div>
+    <div id="record" class="btn_start none"> <strong>GRABAR</strong></div>
+    <div id="finish" class="btn_start none"> <strong>FINALIZAR</strong></div>
+    <div id="upload" class="btn_start none"> <strong>SUBIR GIFO</strong></div>
+    <footer>
+        <h3>Compartir en:</h3>
+        <div class="container_rrss">
+            <div class="rrss face"></div>
+            <div class="rrss twitter"></div>
+            <div class="rrss insta"></div>
+        </div>
+        <p class="reserved">© GIFOS 2020 All Rights Reserved.</p>
+        <div class="line_purple foot"></div>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="js/createGif.js"></script>
+    <script src="js/darkmode.js"></script>
+</body>
+</html>
